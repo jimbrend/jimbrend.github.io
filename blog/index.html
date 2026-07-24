@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog — jim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,500;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--black:#040707;--gloss:#0d1a17;--cyan:#9be8ff;--mint:#8affd1;--text:#c9f7ec;--dim:#6fa89b;--line:rgba(138,255,209,.14)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(1000px 600px at 80% -10%, rgba(155,232,255,.06), transparent 60%),
+      linear-gradient(160deg, var(--gloss) 0%, var(--black) 55%, #020404 100%);
+    color:var(--text);font-family:'Newsreader', Georgia, serif;
+  }
+  main{max-width:760px;margin:0 auto;padding:10vh 28px 14vh}
+  .crumb{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.28em;text-transform:uppercase}
+  .crumb a{color:var(--mint);text-decoration:none}
+  .crumb a:hover{text-decoration:underline}
+  h1{font-weight:300;font-style:italic;color:var(--cyan);font-size:clamp(2rem,5vw,3rem);margin:1.2rem 0 .6rem}
+  .sub{color:var(--dim);font-weight:300;margin-bottom:7vh}
+  .post{display:block;text-decoration:none;color:var(--text);border-top:1px solid var(--line);padding:1.6rem .4rem;transition:background .25s,padding-left .25s}
+  .post:last-of-type{border-bottom:1px solid var(--line)}
+  .post:hover,.post:focus-visible{background:rgba(138,255,209,.045);padding-left:1rem}
+  .post:focus-visible{outline:1px solid var(--mint);outline-offset:-1px}
+  .post h2{font-weight:300;font-size:1.35rem;color:var(--text)}
+  .post:hover h2{color:var(--mint)}
+  .post .meta{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--dim);letter-spacing:.14em;margin-top:.45rem}
+  .post p{color:var(--dim);font-weight:300;margin-top:.55rem;max-width:60ch}
+</style>
+</head>
+<body>
+<main>
+  <p class="crumb"><a href="../">jim</a> / blog</p>
+  <h1>blog</h1>
+  <p class="sub">Snapshots, mirrors, and field notes. Full versions live on <a href="https://jimsuley.substack.com" style="color:var(--mint)">Substack</a>.</p>
+
+  <a class="post" href="./lilacs-out-of-the-dead-land-pt-2/">
+    <h2>Lilacs out of the dead land, Pt. 2</h2>
+    <div class="meta">JUL 2026 · PREVIEW · FULL VERSION ON SUBSTACK</div>
+    <p>A field guide to the machine economy, mid-2026: the Magnificent Seven, the graphics-card company, the OpenAI diaspora, Colossus, and the 22-year-old who once emailed me.</p>
+  </a>
+
+  <a class="post" href="./AquaReview/">
+    <h2>Aqua — an X article, reshared</h2>
+    <div class="meta">MIRROR · EMBEDDED POSTS</div>
+    <p>The X article test with media, kept live at its original URL, resurfaced here with the reshares embedded.</p>
+  </a>
+
+  <a class="post" href="https://jimbrend.github.io/XarticleTestWithMedia/">
+    <h2>X article test, with media</h2>
+    <div class="meta">EXTERNAL · ORIGINAL URL, UNCHANGED</div>
+    <p>The original standalone page, exactly where it has always been.</p>
+  </a>
+</main>
+</body>
+</html>
