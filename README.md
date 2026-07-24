@@ -24,6 +24,5 @@ blog/AquaReview/                            → X article mirror with embedded r
 ## Notes
 
 - The original `XarticleTestWithMedia` repo is untouched and stays live at
-  https://jimbrend.github.io/XarticleTestWithMedia/ — it is linked from the blog, not moved.
-- Full articles are published at https://jimsuley.substack.com — the blog carries previews.
-- No build step. Plain HTML/CSS/JS, three.js from CDN. Push and it deploys.
+  https://jimbrend.github.io/XarticleTestWithMedia/ — it is linked from the blog, not moved.  It was linked externally when posting that article that lives on another company's X account post that reshared it directly, so the URL won't break.
+- Some previous articles are published at https://jimsuley.substack.com — the blog carries previews.
