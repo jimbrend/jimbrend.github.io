@@ -1,6 +1,13 @@
 # jimbrend.github.io
 
-Personal site + blog. Glossy black, cyan/mint, a three.js singularity on the front door.
+Personal site + blog. Glossy black, cyan/mint...
+
+When I was younger, I built a site called dajwebs i e-mailed all my homework to myself to dajwebs.com (no live now...i re-upped it thejewbs but my personal site is not being upkept right now of my past at jimsbr.com i may push a 2.0 there idk,
+
+Point is, before I'd go on to build a lot of other stuff i really enjoyed the colors there as dark black and cyan for that.
+I also designed several other community websites before becoming more technical after age 8-12 when I was fascinated by full-stack development.
+
+This also has a three.js slapstick singularity on the front door.
 
 > "I'm the one without an ASI alignment statement, I'm not sure yet — get back to me later.
 > I'm a student of singularities that are all getting near, enjoi." — jim.
