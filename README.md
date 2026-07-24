@@ -1,4 +1,4 @@
-# jimbrend.github.io
+# jimbrend.github.io, free hosting with GitHub pages
 
 Personal site + blog. Glossy black, cyan/mint...
 
